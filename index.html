@@ -10,10 +10,25 @@
   </head>
   <body>
     <div class="main">
-      <form>
+      <form class="search-user">
         <input type="text" />
-        <button type="submit"></button>
+        <button type="submit">Get Data</button>
       </form>
+
+      <template class="card-template">
+        <div class="user-data">
+          <img src="" alt="user image" />
+
+          <div class="user-info">
+            <p class="name">Name: <span></span></p>
+            <p class="portfolio">Portfolio: <a href="#">Portfolio</a></p>
+            <p class="location">Location: <span></span></p>
+            <p class="public">Public: <span></span></p>
+            <p class="follower">Follower: <span></span></p>
+            <p class="following">Repositories: <span></span></p>
+          </div>
+        </div>
+      </template>
     </div>
 
     <script src="./script.js"></script>
